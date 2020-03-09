@@ -1,15 +1,72 @@
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>The Ephemeral Bookshop</title>
-        <link rel="stylesheet" href="./style.css" />
-    </head>
-    <body>
-        <p>we&rsquo;ll make a real website soon i promise</p>
-        <img width="64" height="64" class="construction" src="./construction-glitch.gif" />
-        <img class="flyer" src="./flyer.jpg" />
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Ephemeral Bookshop</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="section header">
+      <h1>
+        <img
+          alt="The Ephemeral Bookshop"
+          class="logo"
+          src="./images/logo.svg"
+        />
+      </h1>
+      <strong class="bold caps">A Pop-up Zine Shop</strong><br />
+      <strong class="bold caps"
+        >At <a href="http://mulegallery.com">Mule Gallery</a>: 80 Fresno St. in
+        San Francisco</strong
+      ><br />
+      <strong class="bold caps">From April 3rd &ndash; May 29th 2020</strong>
+    </header>
+    <main class="main">
+      <section class="section introduction">
+        <p>
+          The Ephemeral Bookshop is a pop-up zine shop, gallery show, and event
+          space run by those rascals over at
+          <a href="http://galaxybrain.co">Galaxy Brain</a>. It sells zines and
+          prints from local artists, provides Risograph printing and publishing
+          services, and will continue to change and grow until its inevitable
+          demise.
+        </p>
+      </section>
+      <section class="section follow-us">
+        <p>For updates, hours, and events, follow Galaxy Brain:</p>
+        <p class="text-center">
+          <a title="Twitter" class="follow-icon" href="http://twitter.com/galaxybrainco">
+              <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a title="Instagram" class="follow-icon" href="http://instagram.com/galaxybrainco">
+              <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </p>
+      </section>
+      <section class="section events">
+        <h2 class="big bold caps">Events</h2>
+        <ol class="events-list">
+          <li class="event">
+            <h3 class="bold caps event-title">Opening Party</h3>
+            <date class="bold event-time"
+              >Saturday, April 3rd at 6PM til 10PM</date
+            >
+            <div class="event-description">
+              Come get zines! Meet the artists and authors behind those zines!
+              Hang out in the alley!
+            </div>
+          </li>
+          <li class="event">
+            <h3 class="bold caps event-title">Going Out of Business Sale</h3>
+            <date class="bold event-time"
+              >Saturday, May 29th at 6PM til 10PM</date
+            >
+            <div class="event-description">Everything must go!</div>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
 </html>
